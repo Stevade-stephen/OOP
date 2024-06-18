@@ -1,5 +1,7 @@
 package org.stevade;
 
+import java.sql.SQLOutput;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
@@ -10,8 +12,11 @@ public class Main {
 
         Female blessing = new Female("Blessing", "Oni", 28, "All back", "40");
         System.out.println(blessing);
+        Male ife = new Male("Ife", "joy", 60, "trble", "fresh", "wide");
+        System.out.println(ife);
+        ife.walk();
+        blessing.walk();
     }
-
     //Solid principles
     //OOP Concepts
     //Encapsulation

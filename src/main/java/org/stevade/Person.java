@@ -1,6 +1,6 @@
 package org.stevade;
 
-public class Person {
+public class  Person {
     //Components of a class
     //1. Fields
     //2. Methods(getters, setters, constructors and other methods)
